@@ -1,0 +1,47 @@
+/*
+.full-width {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+}
+*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(28, 73, 107);
+}
+
+a:link {color: rgb(28, 73, 107);}
+a:visited {color: rgb(28, 73, 107);}
+a:hover {color: white;}
+
+.top-bar {
+	background-color: rgba(255,255,255,0);
+	text-align: center;
+}
+
+.top-bar ul {
+	background-color: rgba(255,255,255,0.25);
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+}
+
+.top-bar li:hover {
+	background-color: rgba(28, 73, 107, 0.75);
+	color: white;
+}
+
+.hero {
+	background: url("http://cdn1.editmysite.com/uploads/5/6/0/5/56056611/background-images/2068563806.jpg");
+	background-size: cover;
+	height: 750px;
+	text-align: center;
+}
+
+#herohptitle {
+	font-size: 3em;
+	background: rgba(255,255,255,0.75);
+	color: #39B7B7;
+}
