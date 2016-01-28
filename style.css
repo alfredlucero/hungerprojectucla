@@ -1,14 +1,18 @@
-/*
+
 .full-width {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: initial;
 }
-*/
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(28, 73, 107);
+}
+
+p {
+	font-size: 2em;
 }
 
 a:link {color: rgb(28, 73, 107);}
@@ -18,10 +22,11 @@ a:hover {color: white;}
 .top-bar {
 	background-color: rgba(255,255,255,0);
 	text-align: center;
+	padding: 0;
 }
 
 .top-bar ul {
-	background-color: rgba(255,255,255,0.25);
+	background-color: rgba(255,255,255,0.75);
 	display: inline-block;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -31,14 +36,55 @@ a:hover {color: white;}
 .top-bar li:hover {
 	background-color: rgba(28, 73, 107, 0.75);
 	color: white;
+	border-bottom: thick solid #ADEAEC;
 }
 
 .hero {
+	position: relative;
 	background: url("http://cdn1.editmysite.com/uploads/5/6/0/5/56056611/background-images/2068563806.jpg");
 	background-size: cover;
-	height: 750px;
+	height: 850px;
 	text-align: center;
 }
+
+
+
+.tabs {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	background: rgba(255,255,255,0);
+	border: 0px;
+	margin-bottom: -7px;
+}
+
+
+.tabs-title > a {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+    background-color: rgba(28, 73, 107, 0.75);
+    color: white;
+    border-bottom: thick solid #ADEAEC;
+}
+
+.tabs-title > a:hover {
+	background-color: rgba(28, 73, 107, 0.75);
+}
+
+.tabs li {
+	width: 250px;
+}
+
+
+.tabs-centered {
+	display: inline-block;
+	background-color: rgba(255,255,255,0.75);
+}
+
 
 #herohptitle {
 	font-size: 3em;
