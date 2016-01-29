@@ -12,37 +12,177 @@
   <!-- Put your HTML here! -->
   <div class="row full-width">
   	<div class="medium-12 columns">
-	  	<section class="hero">
+	  	<header class="hero top">
 	  			<div class="top-bar">
 					  <ul class="dropdown menu" data-dropdown-menu>
 					    <li class="menu-text top-list-item "><a href="index.html">HUNGER PROJECT</a></li>
-					    <li><a href="#">ABOUT</a></li>
 					    <li><a href="#">E-BOARD</a></li>
-					    <li><a href="#">INVOLVEMENT</a></li>
 					    <li><a href="#">MEMBERS</a></li>
 					    <li><a href="#">CONTACT</a></li>
 					  </ul>
 					</div> <!-- end .top-bar -->
 					<div class="tab-bar">
-				  	<ul class="tabs" data-tabs id="example-tabs">
+				  	<ul class="tabs" data-tabs id="home-tabs">
 				  			<div class="tabs-centered">
-					  			<li class="tabs-title is-active" id="panel1-label"><a href="#panel1" aria-selected="true">OVERVIEW</a></li>
-					  			<li class="tabs-title"><a href="#panel2" id="panel2-label">COMMUNITY</a></li>
+					  			<li class="tabs-title is-active" id="overview-label"><a href="#overview" aria-selected="true">OVERVIEW</a></li>
+					  			<li class="tabs-title"><a href="#community" id="community-label">COMMUNITY</a></li>
+					  			<li class="tabs-title"><a href="#news" id="news-label">NEWS</a></li>
 				  			</div>
 						</ul>
 					</div> <!-- end .tab-bar -->
-	  	</section> <!-- end .hero -->
+	  	</header> <!-- end .hero -->
 	  </div> <!-- end .hero/.top-bar/.tab-bar -->
   	<div class="medium-12 columns">
- 			<div class="tabs-content" data-tabs-content="example-tabs">
-			  <div class="tabs-panel is-active" id="panel1">
-			    <p>UCLA Hunger Project is an undergraduate-run service organization that aims to combat homelessness while raising awareness in the Greater Los Angeles area. Our mission is to not only provide basic aid but to also help disadvantaged members reintegrate into society. We are a community of volunteers, interns, and student leaders dedicated towards our cause. Throughout the year, we work with local non-profit organizations such as People Assisting the Homeless (PATH) and The Westwood Transitional House Village of the Salvation Army in order to provide to our service recipients mentoring, food, and educational services.</p>
-			  </div>
-			  <div class="tabs-panel" id="panel2">
-			    <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
-			  </div>
+ 			<div class="tabs-content" data-tabs-content="home-tabs">  
+			  <div class="tabs-panel is-active medium-12 columns" id="overview">
+					<div class="medium-4 columns">
+						<h1>HUNGER PROJECT<br />UCLA</h1>
+						<img class="thumbnail" src="https://static.wixstatic.com/media/ce605a_ef8f50b2a9bc444a83ceae5ac33ca386.png/v1/fill/w_198,h_173,al_c,usm_0.66_1.00_0.01/ce605a_ef8f50b2a9bc444a83ceae5ac33ca386.png" alt="hunger-project-logo">
+					</div>
+			    <p class="medium-8 columns">﻿Founded in 1987, Hunger Project is dedicated to fighting poverty by combining direct service, advocacy, and education. Volunteers deliver food, serve meals, provide job assistance, and teach life skills classes.  Our ultimate goal is to provide services to homeless and low-income individuals in helping meet their immediate and long-term needs. Hunger Project at UCLA has always implemented programs to alleviate some of the problems of homelessness in Los Angeles.  We do this by informing and educating UCLA students and leading by example through volunteering programs.  At the same time we encourage students to become active in the community by offering volunteer programs that are accessible to anyone in the UCLA community.  The two active programs that have persisted throughout the history of Hunger Project at UCLA are the food salvage program and the health clinic program.
+ 					</p> 
+			  </div> <!-- end #overview -->
+			  
+			  <div class="tabs-panel medium-12 columns" id="community">
+			    <div class="medium-4 columns">
+				    <ul class="tabs vertical" id="community-vert-tabs" data-tabs>
+				      <li class="tabs-title is-active"><a href="#community-westwood" aria-selected="true">WESTWOOD TRANSITIONAL VILLAGE</a></li>
+				      <li class="tabs-title"><a href="#community-path">PATH</a></li>
+				      <li class="tabs-title"><a href="#community-homeless-awareness">HOMELESS AWARENESS WEEK</a></li>
+				      <li class="tabs-title"><a href="#community-hunger-banquet">HUNGER BANQUET</a></li>
+				      <li class="tabs-title"><a href="#community-midnight-mission">MIDNIGHT MISSION</a></li>
+				      <li class="tabs-title"><a href="#community-skidrow">SKIDROW DISTRIBUTIONS</a></li>
+    				</ul>
+    			</div> <!-- end medium-4 columns -->
+			    <div class="medium-8 columns">
+				    <div class="tabs-content vertical" data-tabs-content="community-vert-tabs">
+				      <div class="tabs-panel is-active medium-12 columns" id="community-westwood">
+				      	<h1>WESTWOOD TRANSITIONAL VILLAGE</h1>
+				      	<img class="thumbnail medium-6 columns" src="http://www.hungerprojectatucla.com/uploads/5/6/0/5/56056611/8849577_orig.jpg">
+				        <div class="medium-12 columns">
+				        	<h3>WHAT:</h3>
+				        	<p>
+				        		Westwood Transitional Village (WTV) is a residential temporary housing facility funded by the Salvation Army. The units house around 150 residents, many being the families of veterans, and with two thirds of the population being children. 
+				        	</p>
+				        	<h3>INVOLVEMENT:</h3>
+				        	<p>
+										At WTV, we reach out to the children living at the village. Most of our events focus on fun games that will get the kids involved and running around. In addition, we incorporate important life lessons that will teach the children how to live impactful and fulfilling lives. 
+				        	</p>
+				        	<h3>WHERE:</h3>
+				        	<p>
+										Westwood Transitional Village -1401 S. Sepulveda Boulevard, Los Angeles, CA 90025
+				        	</p>
+				        </div>
+				      </div> <!-- end #community-westwood -->
+				      <div class="tabs-panel medium-12 columns" id="community-path">
+				      	<h1>PEOPLE ASSISTING THE HOMELESS</h1>
+				      	<img class="thumbnail medium-6 columns" src="http://www.hungerprojectatucla.com/uploads/5/6/0/5/56056611/8849577_orig.jpg">
+				        <div class="medium-12 columns">
+				        	<h3>WHAT:</h3>
+				        	<p>
+				        		PATH is a nonprofit which provides temporary housing to residents while they get back on their feet. They have multiple housing locations around the LA area and also provide supportive services to help people get off the streets and into a permanent housing solution.
+				        	</p>
+				        	<h3>INVOLVEMENT:</h3>
+				        	<p>
+										We provide support to the residents by cooking delicious and nutritious food for them. Nutrition is a big focus for this program, as it can be difficult to get a balanced diet when funds are limited. Following the food preparation and serving, we also share a meal with the residents to get to know them on a personal level. 
+				        	</p>
+				        	<h3>WHERE:</h3>
+				        	<p>
+										PATH West LA - 2346 Cotner Ave, Los Angeles, CA 90064 <br />
+										PATH Hollywood - 5627 Fernwood Ave, Los Angeles, CA 90028
+				        	</p>
+				        </div>
+				      </div> <!-- end community-path -->
+				      <div class="tabs-panel medium-12 columns" id="community-homeless-awareness">
+				        <h1>HOMELESS AWARENESS WEEK</h1>
+				        <img class="thumbnail medium-6 columns" src="http://www.hungerprojectatucla.com/uploads/5/6/0/5/56056611/1922766_orig.jpg">
+				        <div class="medium-12 columns">
+				        	<h3>WHAT:</h3>
+				        	<p>
+				        		 Homeless Awareness Week is a collaborative event hosted by the various UCLA organizations dealing with homelessness in the community. It takes place once a year, and is intended to bring greater awareness of the problems that come with homelessness to UCLA’s communities.
+				        	</p>
+				        	<h3>INVOLVEMENT:</h3>
+				        	<p>
+										Hunger Project plays a large role in providing volunteers and leading discussions for events throughout the week. While tabling for the event, UCLA students are encouraged to come to the Hunger Project table and help prepare hygiene kits and snack packages that we will distribute to recipients on Skid Row. Hunger Banquet is also hosted during this week. 
+				        	</p>
+				        	<h3>WHERE:</h3>
+				        	<p>
+										UCLA
+				        	</p>
+				        </div>
+				      </div> <!-- end #community-homeless-awareness -->
+				      <div class="tabs-panel medium-12 columns" id="community-hunger-banquet">
+				      	<h1>HUNGER BANQUET</h1>
+				      	<img class="thumbnail medium-6 columns" src="http://www.hungerprojectatucla.com/uploads/5/6/0/5/56056611/6338321_orig.jpg">
+				        <div class="medium-12 columns">
+				        	<h3>WHAT:</h3>
+				        	<p>
+				        		 Taking place during Homeless Awareness Week, Hunger Banquet is another way for us to show UCLA students what homelessness in the LA community is like. As part of this program, students are randomly given ‘socioeconomic standings’ that dictate what kinds of foods they will have access to, to show the kinds of limitations that poverty places upon those who undergo it. In addition the event highlights the work and experiences of community leaders that work with the homeless. 
+				        	</p>
+				        	<h3>INVOLVEMENT:</h3>
+				        	<p>
+										We organize and run it!
+				        	</p>
+				        	<h3>WHERE:</h3>
+				        	<p>
+										UCLA
+				        	</p>
+				        </div>
+				      </div> <!-- end #community-hunger-banquet -->
+				      <div class="tabs-panel medium-12 columns" id="community-midnight-mission">
+				      	<h1>MIDNIGHT MISSION</h1>
+				      	<img class="thumbnail medium-6 columns" src="http://www.hungerprojectatucla.com/uploads/5/6/0/5/56056611/7592838_orig.jpg">
+				        <div class="medium-12 columns">
+				        	<h3>WHAT:</h3>
+				        	<p>
+				        		 The Midnight Mission is a highly organized nonprofit that serves the residents of Skid Row by serving free meals every day of the year. They also offer transitional services that connect residents with necessary resources. 
+				        	</p>
+				        	<h3>INVOLVEMENT:</h3>
+				        	<p>
+										We volunteer with the Midnight Mission to help cook and serve food to residents at Skid Row.
+				        	</p>
+				        	<h3>WHERE:</h3>
+				        	<p>
+										Skid Row 601 South San Pedro Street, Los Angeles, CA 90014
+				        	</p>
+				        </div>
+				      </div> <!-- end #community-midnight-mission -->
+				      <div class="tabs-panel medium-12 columns" id="community-skidrow">
+				      	<h1>SKID ROW DISTRIBUTIONS</h1>
+				        <img class="thumbnail medium-6 columns" src="http://www.hungerprojectatucla.com/uploads/5/6/0/5/56056611/2735166_orig.jpg">
+				        <div class="medium-12 columns">
+				        	<h3>WHAT:</h3>
+				        	<p>
+				        		 A raw service experience, distributing supplies to the residents of Skid Row on foot. Eye-opening and highly rewarding, we pack and distribute food and hygiene kits to residents during the afternoon. 
+				        	</p>
+				        	<h3>INVOLVEMENT:</h3>
+				        	<p>
+										We organize and run it!
+				        	</p>
+				        	<h3>WHERE:</h3>
+				        	<p>
+										Skid Row
+				        	</p>
+				        </div>
+				      </div> <!-- end #community-skidrow -->
+				    </div> <!-- end #community -->
+				  </div> <!-- end .tabs-content vert -->
+			  </div> <!-- end medium-8 columns -->
+			  
+			  <div class="tabs-panel medium-12 columns" id="news">
+					<div class="medium-3 columns">
+						<h1>NEWS<br />UCLA</h1>
+					</div>
+					<p class="medium-9 columns">﻿NEWS GO HERE</p> 
+			  </div> <!-- end #news -->
+			
 			</div> <!-- end .tabs-content -->
 		</div> <!-- end .tabs-content/.tabs-panel -->
+		
+		<div class="hero medium-12 columns" id="overview-csc">
+				<h2>CSC PROJECT OF THE YEAR, 2013-2014</h2>
+ 		</div> <!-- end #overview-csc -->
+	
 	</div> <!-- end .row full-width -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.js'></script>
