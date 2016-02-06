@@ -172,3 +172,11 @@ i {
   color: white;
   font-size: 2.6rem;
   line-height: 3.9rem; }
+
+
+@media only screen and (min-width: 480px) {
+    .hero.top {
+        float:left;
+        width:61%;
+     }
+}
