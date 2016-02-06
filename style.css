@@ -38,9 +38,11 @@ a:hover {color: white;}
 	border-bottom: thick solid #ADEAEC;
 }
 
+
 .menu > li {
 	width: 300px;
 }
+
 
 .hero.top {
 	position: relative;
